@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    image: #add erc location here
+    ports:
+      - "3000:3000"
+    logging:
+      driver: awslogs
+      options:
+        awslogs-group: ec2-tutorial
+        awslogs-region: us-east-1
+        awslogs-stream-prefix-web
+
