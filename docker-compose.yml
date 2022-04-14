@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: #add erc location here
+    image: 563083427725.dkr.ecr.us-east-1.amazonaws.com/jenkins-cicd-yarn:latest
     ports:
       - "3000:3000"
     logging:

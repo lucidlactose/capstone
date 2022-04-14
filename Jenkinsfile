@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = # put here
+    registry = '563083427725.dkr.ecr.us-east-1.amazonaws.com/jenkins-cicd-yarn'
     registryCredential = 'IAM_SAA'
     dockerImage = ''
   }
