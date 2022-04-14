@@ -3,4 +3,4 @@ task_definition:
   services:
     web:
       cpu_shares: 5000
-      mem_limit: 152428800
+      mem_limit: 4000000000
