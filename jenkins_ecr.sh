@@ -3,7 +3,7 @@
 
 # ecs-cli configure profile --access-key $AWS_ACCESS_KEY_ID --secret-key $AWS_SECRET_ACCESS_KEY --profile-name ec2-tutorial-profile
 
-# ecs-cli up --keypair webserverKP --capability-iam --size 2 --instance-type t2.micro --cluster-config ec2-tutorial --ecs-profile ec2-tutorial-profile --port 5000
+# ecs-cli up --keypair webserverKP --capability-iam --size 2 --instance-type t2.micro --cluster-config ec2-tutorial --ecs-profile ec2-tutorial-profile --port 3000
 
 # sleep 60
 
