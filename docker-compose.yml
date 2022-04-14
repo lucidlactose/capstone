@@ -9,5 +9,5 @@ services:
       options:
         awslogs-group: ec2-tutorial
         awslogs-region: us-east-1
-        awslogs-stream-prefix-web
+        awslogs-stream-prefix: web
 
